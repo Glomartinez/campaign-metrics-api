@@ -38,4 +38,4 @@ Project structure includes app.py, Dockerfile, requirements.txt, .gitignore, and
 
 A CI/CD pipeline can be added using GitHub Actions to automatically build the Docker image and deploy the updated container to Azure Container Apps. The workflow file (.github/workflows/deploy.yml) builds and pushes the latest image and then triggers an Azure deployment using service principal credentials stored as GitHub secrets.
 
-This project is licensed under the MIT License.
+
